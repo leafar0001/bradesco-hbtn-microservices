@@ -1,0 +1,28 @@
+O que são microsserviços
+
+Microsserviços são uma abordagem arquitetural na qual uma aplicação é estruturada como um conjunto de pequenos serviços independentes, cada um responsável por uma funcionalidade específica do sistema. Esses serviços são autônomos, podendo ser desenvolvidos, implantados e escalados de forma isolada, o que proporciona maior flexibilidade, agilidade e resiliência no desenvolvimento e na operação de software.
+
+Diferença entre arquitetura monolítica e microsserviços
+
+Na arquitetura monolítica, toda a aplicação é construída como um único bloco coeso, no qual os módulos e componentes são fortemente acoplados e executados em um mesmo processo.
+Já na arquitetura de microsserviços, a aplicação é dividida em múltiplos serviços menores e independentes, que se comunicam entre si por meio de interfaces bem definidas. Essa divisão favorece a modularidade, a escalabilidade e a facilidade de manutenção, além de permitir a evolução contínua dos componentes sem comprometer o funcionamento global da aplicação.
+
+Principais benefícios dos microsserviços
+
+Escalabilidade independente: cada serviço pode ser escalado individualmente, conforme sua demanda específica, otimizando recursos e desempenho.
+
+Facilidade de manutenção e atualização: mudanças em um serviço não afetam diretamente os demais, reduzindo riscos e o tempo de implantação.
+
+Liberdade tecnológica: cada microsserviço pode ser desenvolvido com a linguagem, framework e banco de dados mais adequados à sua função.
+
+Resiliência: a falha de um serviço tende a não comprometer toda a aplicação, aumentando a disponibilidade do sistema.
+
+Ciclos de entrega mais rápidos: as equipes podem trabalhar de forma paralela e independente, acelerando a entrega de novas funcionalidades.
+
+Formas de comunicação entre microsserviços
+
+A comunicação entre microsserviços pode ocorrer de duas formas principais:
+
+Síncrona: ocorre em tempo real, com resposta imediata entre as partes envolvidas. É comumente implementada via HTTP/REST ou gRPC.
+
+Assíncrona: ocorre por meio de filas de mensagens ou brokers (como Kafka, RabbitMQ ou Amazon SQS), promovendo desacoplamento, tolerância a falhas e melhor escalabilidade.
